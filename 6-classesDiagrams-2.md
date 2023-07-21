@@ -27,7 +27,7 @@ classDiagram
         -UserModel _userModel
         -SendWelcomeEmailService _sendWelcomeEmailService
         -Kafka _kafka
-        +CreateUserService(UserModel um, SendWElcomeEmailService es, Kafka k)
+        +CreateUserService(UserModel um, SendWelcomeEmailService es, Kafka k)
         +Call(ICreateUserService createUserRequest) User
         -CheckActiveUsers(List-User- users) bool
     }
