@@ -1,6 +1,7 @@
 ---
 title: Example Git diagram
 ---
+```mermaid
 gitGraph
    commit
    commit
@@ -12,3 +13,4 @@ gitGraph
    merge develop
    commit
    commit
+```
